@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7287C83183EF23700B069A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7287C82183EF23700B069A1 /* Cocoa.framework */; };
+		B7287C8D183EF23800B069A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7287C8B183EF23800B069A1 /* InfoPlist.strings */; };
+		B7287C8F183EF23800B069A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7287C8E183EF23800B069A1 /* main.m */; };
+		B7287C93183EF23800B069A1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7287C91183EF23800B069A1 /* Credits.rtf */; };
+		B7287C96183EF23800B069A1 /* OpenUUIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7287C95183EF23800B069A1 /* OpenUUIDAppDelegate.m */; };
+		B7287C99183EF23800B069A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7287C97183EF23800B069A1 /* MainMenu.xib */; };
+		B7287C9B183EF23800B069A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7287C9A183EF23800B069A1 /* Images.xcassets */; };
+		B7287CA2183EF23800B069A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7287CA1183EF23800B069A1 /* XCTest.framework */; };
+		B7287CA3183EF23800B069A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7287C82183EF23700B069A1 /* Cocoa.framework */; };
+		B7287CAB183EF23800B069A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7287CA9183EF23800B069A1 /* InfoPlist.strings */; };
+		B7287CAD183EF23800B069A1 /* OpenUUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7287CAC183EF23800B069A1 /* OpenUUIDTests.m */; };
+		B7287CB8183EF24E00B069A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B7287CB6183EF24E00B069A1 /* LICENSE */; };
+		B7287CB9183EF24E00B069A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B7287CB7183EF24E00B069A1 /* README.md */; };
+		B7287CBB183F009F00B069A1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7287CBA183F009F00B069A1 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7287CA4183EF23800B069A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7287C77183EF23700B069A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7287C7E183EF23700B069A1;
+			remoteInfo = OpenUUID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7287C7F183EF23700B069A1 /* OpenUUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenUUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7287C82183EF23700B069A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B7287C85183EF23700B069A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B7287C86183EF23700B069A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B7287C87183EF23700B069A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7287C8A183EF23800B069A1 /* OpenUUID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenUUID-Info.plist"; sourceTree = "<group>"; };
+		B7287C8C183EF23800B069A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7287C8E183EF23800B069A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7287C90183EF23800B069A1 /* OpenUUID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenUUID-Prefix.pch"; sourceTree = "<group>"; };
+		B7287C92183EF23800B069A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B7287C94183EF23800B069A1 /* OpenUUIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenUUIDAppDelegate.h; sourceTree = "<group>"; };
+		B7287C95183EF23800B069A1 /* OpenUUIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenUUIDAppDelegate.m; sourceTree = "<group>"; };
+		B7287C98183EF23800B069A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B7287C9A183EF23800B069A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7287CA0183EF23800B069A1 /* OpenUUIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenUUIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7287CA1183EF23800B069A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B7287CA8183EF23800B069A1 /* OpenUUIDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenUUIDTests-Info.plist"; sourceTree = "<group>"; };
+		B7287CAA183EF23800B069A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7287CAC183EF23800B069A1 /* OpenUUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenUUIDTests.m; sourceTree = "<group>"; };
+		B7287CB6183EF24E00B069A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B7287CB7183EF24E00B069A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B7287CBA183F009F00B069A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7287C7C183EF23700B069A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287CBB183F009F00B069A1 /* IOKit.framework in Frameworks */,
+				B7287C83183EF23700B069A1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7287C9D183EF23800B069A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287CA3183EF23800B069A1 /* Cocoa.framework in Frameworks */,
+				B7287CA2183EF23800B069A1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7287C76183EF23700B069A1 = {
+			isa = PBXGroup;
+			children = (
+				B7287CB6183EF24E00B069A1 /* LICENSE */,
+				B7287CB7183EF24E00B069A1 /* README.md */,
+				B7287C88183EF23700B069A1 /* OpenUUID */,
+				B7287CA6183EF23800B069A1 /* OpenUUIDTests */,
+				B7287C81183EF23700B069A1 /* Frameworks */,
+				B7287C80183EF23700B069A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7287C80183EF23700B069A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7287C7F183EF23700B069A1 /* OpenUUID.app */,
+				B7287CA0183EF23800B069A1 /* OpenUUIDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7287C81183EF23700B069A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7287CBA183F009F00B069A1 /* IOKit.framework */,
+				B7287C82183EF23700B069A1 /* Cocoa.framework */,
+				B7287CA1183EF23800B069A1 /* XCTest.framework */,
+				B7287C84183EF23700B069A1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7287C84183EF23700B069A1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7287C85183EF23700B069A1 /* AppKit.framework */,
+				B7287C86183EF23700B069A1 /* CoreData.framework */,
+				B7287C87183EF23700B069A1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B7287C88183EF23700B069A1 /* OpenUUID */ = {
+			isa = PBXGroup;
+			children = (
+				B7287C94183EF23800B069A1 /* OpenUUIDAppDelegate.h */,
+				B7287C95183EF23800B069A1 /* OpenUUIDAppDelegate.m */,
+				B7287C97183EF23800B069A1 /* MainMenu.xib */,
+				B7287C9A183EF23800B069A1 /* Images.xcassets */,
+				B7287C89183EF23800B069A1 /* Supporting Files */,
+			);
+			path = OpenUUID;
+			sourceTree = "<group>";
+		};
+		B7287C89183EF23800B069A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7287C8A183EF23800B069A1 /* OpenUUID-Info.plist */,
+				B7287C8B183EF23800B069A1 /* InfoPlist.strings */,
+				B7287C8E183EF23800B069A1 /* main.m */,
+				B7287C90183EF23800B069A1 /* OpenUUID-Prefix.pch */,
+				B7287C91183EF23800B069A1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7287CA6183EF23800B069A1 /* OpenUUIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7287CAC183EF23800B069A1 /* OpenUUIDTests.m */,
+				B7287CA7183EF23800B069A1 /* Supporting Files */,
+			);
+			path = OpenUUIDTests;
+			sourceTree = "<group>";
+		};
+		B7287CA7183EF23800B069A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7287CA8183EF23800B069A1 /* OpenUUIDTests-Info.plist */,
+				B7287CA9183EF23800B069A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7287C7E183EF23700B069A1 /* OpenUUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7287CB0183EF23800B069A1 /* Build configuration list for PBXNativeTarget "OpenUUID" */;
+			buildPhases = (
+				B7287C7B183EF23700B069A1 /* Sources */,
+				B7287C7C183EF23700B069A1 /* Frameworks */,
+				B7287C7D183EF23700B069A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenUUID;
+			productName = OpenUUID;
+			productReference = B7287C7F183EF23700B069A1 /* OpenUUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7287C9F183EF23800B069A1 /* OpenUUIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7287CB3183EF23800B069A1 /* Build configuration list for PBXNativeTarget "OpenUUIDTests" */;
+			buildPhases = (
+				B7287C9C183EF23800B069A1 /* Sources */,
+				B7287C9D183EF23800B069A1 /* Frameworks */,
+				B7287C9E183EF23800B069A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7287CA5183EF23800B069A1 /* PBXTargetDependency */,
+			);
+			name = OpenUUIDTests;
+			productName = OpenUUIDTests;
+			productReference = B7287CA0183EF23800B069A1 /* OpenUUIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7287C77183EF23700B069A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OpenUUID;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cai, Zhi-Wei";
+				TargetAttributes = {
+					B7287C9F183EF23800B069A1 = {
+						TestTargetID = B7287C7E183EF23700B069A1;
+					};
+				};
+			};
+			buildConfigurationList = B7287C7A183EF23700B069A1 /* Build configuration list for PBXProject "OpenUUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7287C76183EF23700B069A1;
+			productRefGroup = B7287C80183EF23700B069A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7287C7E183EF23700B069A1 /* OpenUUID */,
+				B7287C9F183EF23800B069A1 /* OpenUUIDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7287C7D183EF23700B069A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287CB9183EF24E00B069A1 /* README.md in Resources */,
+				B7287C8D183EF23800B069A1 /* InfoPlist.strings in Resources */,
+				B7287C9B183EF23800B069A1 /* Images.xcassets in Resources */,
+				B7287C93183EF23800B069A1 /* Credits.rtf in Resources */,
+				B7287C99183EF23800B069A1 /* MainMenu.xib in Resources */,
+				B7287CB8183EF24E00B069A1 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7287C9E183EF23800B069A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287CAB183EF23800B069A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7287C7B183EF23700B069A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287C8F183EF23800B069A1 /* main.m in Sources */,
+				B7287C96183EF23800B069A1 /* OpenUUIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7287C9C183EF23800B069A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7287CAD183EF23800B069A1 /* OpenUUIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7287CA5183EF23800B069A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7287C7E183EF23700B069A1 /* OpenUUID */;
+			targetProxy = B7287CA4183EF23800B069A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7287C8B183EF23800B069A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7287C8C183EF23800B069A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7287C91183EF23800B069A1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7287C92183EF23800B069A1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B7287C97183EF23800B069A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7287C98183EF23800B069A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B7287CA9183EF23800B069A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7287CAA183EF23800B069A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7287CAE183EF23800B069A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7287CAF183EF23800B069A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7287CB1183EF23800B069A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenUUID/OpenUUID-Prefix.pch";
+				INFOPLIST_FILE = "OpenUUID/OpenUUID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7287CB2183EF23800B069A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenUUID/OpenUUID-Prefix.pch";
+				INFOPLIST_FILE = "OpenUUID/OpenUUID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7287CB4183EF23800B069A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenUUID.app/Contents/MacOS/OpenUUID";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenUUID/OpenUUID-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenUUIDTests/OpenUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B7287CB5183EF23800B069A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenUUID.app/Contents/MacOS/OpenUUID";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenUUID/OpenUUID-Prefix.pch";
+				INFOPLIST_FILE = "OpenUUIDTests/OpenUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7287C7A183EF23700B069A1 /* Build configuration list for PBXProject "OpenUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7287CAE183EF23800B069A1 /* Debug */,
+				B7287CAF183EF23800B069A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7287CB0183EF23800B069A1 /* Build configuration list for PBXNativeTarget "OpenUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7287CB1183EF23800B069A1 /* Debug */,
+				B7287CB2183EF23800B069A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7287CB3183EF23800B069A1 /* Build configuration list for PBXNativeTarget "OpenUUIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7287CB4183EF23800B069A1 /* Debug */,
+				B7287CB5183EF23800B069A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7287C77183EF23700B069A1 /* Project object */;
+}
